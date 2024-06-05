@@ -85,7 +85,7 @@ spec:
         - name: manifest-dir
           workspace: pipeline-workspace
       taskRef:
-        name: openshilf-client
+        name: openshift-client
         kind: ClusterTask
       params:
       - name: SCRIPT
